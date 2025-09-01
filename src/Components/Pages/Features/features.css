@@ -1,0 +1,92 @@
+/* Parent wrapper */
+.contract-features {
+  color: #fff;
+  width: 70%;
+  margin:40px auto;
+}
+
+/* Header */
+.contract-features .features-header {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.contract-features .features-subtitle {
+  font-size: 16px;
+  color: #CECFD2;
+  margin-bottom: 16px;
+}
+
+.contract-features .features-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+/* Content Layout */
+.contract-features .features-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 96px;
+}
+
+/* Left Side */
+.contract-features .feature-text {
+  flex: 1;
+}
+
+.contract-features .feature-icon {
+  background: #7F56D9;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.contract-features .feature-heading {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.contract-features .feature-description {
+  color: #bbb;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Bullet List */
+.contract-features .feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contract-features .feature-list li {
+  position: relative;
+  padding-left: 32px;
+  margin-bottom: 12px;
+  color: #ddd;
+  font-size: 15px;
+}
+
+/* Right Side */
+.contract-features .feature-media {
+  flex: 1;
+  text-align: center;
+  /* height: 360px;
+  border: 2px solid #333;
+  border-radius: 12px;
+  background: #161a22; */
+}
+
+.features-content.reverse{
+    margin: 96px 0px;
+}

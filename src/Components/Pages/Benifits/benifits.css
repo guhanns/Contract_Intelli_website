@@ -1,0 +1,53 @@
+.contract-benefits {
+  /* background-color: #0e1117; */
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  width: 70%;
+  margin: auto;
+}
+
+.contract-benefits .benefits-subtitle {
+  font-size: 16px;
+  color: #CECFD2;
+  margin-bottom: 12px;
+}
+
+.contract-benefits .benefits-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.contract-benefits .benefit-card {
+  background: transparent;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+
+
+.contract-benefits .benefit-icon {
+  font-size: 26px;
+  color: #6c63ff;
+  /* background: rgba(108, 99, 255, 0.1); */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #333741;
+}
+
+.contract-benefits .benefit-heading {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color:#F5F5F6;
+}
+
+.contract-benefits .benefit-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #94969C;
+}

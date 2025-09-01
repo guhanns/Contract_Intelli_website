@@ -1,0 +1,99 @@
+.container-FAQ {
+  padding-top: 96px;
+  padding-bottom: 96px;
+  background-color: #0c111d;
+  width: 70%;
+  margin: auto;
+}
+
+.header {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.header p {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+  color: #f5f5f6;
+  margin-bottom: 64px;
+}
+
+/* Transparent accordion background */
+/* Remove accordion box background and border */
+
+.custom-accordion-header{
+   margin-bottom: 32px;
+}
+.accordion-item {
+  background: transparent !important;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #1F242F;
+}
+
+.accordion{
+--bs-accordion-btn-icon:none!important;
+
+--bs-accordion-btn-active-icon:none!important;
+    --bs-accordion-border-color:none!important;
+}
+
+/* Remove default Bootstrap caret/arrow */
+.custom-accordion-header::after {
+  display: none !important;
+}
+
+/* Remove focus shadow (Bootstrap adds it) */
+.accordion-button:focus {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* Make header fully transparent and clean */
+.accordion-button {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+/* Ensure the toggle icons don't get borders */
+.accordion-button:not(.collapsed) {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Custom header layout */
+.accordion-header-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.accordion-body{
+    padding:1rem 0px;
+}
+
+/* FAQ question style */
+.What-qn {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  color: #f5f5f6;
+  margin: 0;
+}
+
+/* FAQ answer style */
+.ans-for-qn {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #94969c;
+  margin: 0;
+}
+

@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Inter';
+  src: url(./fonts/Inter.ttf);
+}
+
+
+
+
+:root {
+  --radius-md: 8px;
+  --spacing-xs: 4px;
+  --spacing-md: 8px;
+  --spacing-lg: 12px;
+  --bg-primary:#0C111D;
+}
+
+
+:root[data-theme="Dark"] {
+  --Gradient-skeuemorphic-gradient-border: rgba(255, 255, 255, 0.12);
+  --bg-primary:#0C111D;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter'; 
+}
+
+body{
+  background-color: #0C111D!important;
+}
