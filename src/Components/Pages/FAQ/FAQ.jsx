@@ -7,7 +7,7 @@ import {
 } from "reactstrap";
 import { Plus, Minus, MinusCircle, PlusCircle } from "lucide-react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./faq.css";
+import "./Faq.css";
 
 const FAQ = () => {
  const [open, setOpen] = useState([]);
