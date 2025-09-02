@@ -1,10 +1,11 @@
 import React from "react";
 import "./footer.css";
-import logo from "../../../images/footer/Logomark.svg";
+import logo from "../../../images/logo/logo-footer-dark.svg";
 import x from "../../../images/footer/Social icon.svg";
 import linked from "../../../images/footer/Social icon (1).svg";
 import youtube from "../../../images/footer/Social icon (2).svg";
 import insta from "../../../images/footer/Social icon (3).svg";
+import { HashLink } from "react-router-hash-link";
 
 const Footer = () => {
   return (
@@ -28,10 +29,15 @@ const Footer = () => {
             <h6 className="head">Product</h6>
             <ul>
               <li>Overview</li>
-              <li>Features</li>
-              <li>Benefits</li>
-              <li>Use Cases</li>
-              <li>Pricing</li>
+              <HashLink smooth to="/#features">
+                <li>Features</li>
+              </HashLink>
+              <HashLink smooth to="/#benifits">
+                <li>Benefits</li>
+              </HashLink>
+              <HashLink smooth to="/#useCases">
+                <li>Use Cases</li>
+              </HashLink>
             </ul>
           </div>
           <div class="col-2 footer-boxes ">
@@ -68,7 +74,9 @@ const Footer = () => {
 
         <div className="footer-icons-left">
           <div>
-            <h6>© 2025 IntelliContract. All rights reserved.</h6>
+            <h6>
+              © {new Date().getFullYear()} IntelliContract. All rights reserved.
+            </h6>
           </div>
 
           <div className="footer-icons-right">

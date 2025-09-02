@@ -44,10 +44,10 @@ function Home() {
         {/* <img src={patternImg} className="home-bg-img" /> */}
         <div className="home-details">
           <span className="home-ai">
-            <span>
+            <span className='ai'>
               <img src={aiImg} />
               AI Powered
-            </span>{" "}
+            </span>{"  "}
             One Platform, Any Dataset.
           </span>
           <div>
@@ -60,17 +60,16 @@ function Home() {
               for every industry.”
             </p>
             <div className="home-btns">
-              <button className="demo-play">
+              <button className="demo-play" onClick={() =>
+    window.open("https://intelligence-contract.srm-tech.com/", "_blank")
+  }>
                 <img src={demoPlayImg} />
                 Demo
               </button>
               <button 
               className="start-btn" 
-                onClick={() =>
-    window.open("https://intelligence-contract.srm-tech.com/", "_blank")
-  }
               >
-                Get Started</button>
+                Contact Us</button>
             </div>
           </div>
         </div>

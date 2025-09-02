@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./cognitive.css";
 import entityImg from "../../../images/feature/entity-dark.svg";
-import modelnImg from "../../../images/feature/modeln-dark.svg";
-import chartImg from "../../../images/feature/chart-dark.svg";
+import modelnImg from "../../../images/feature/xml.svg";
+import chartImg from "../../../images/feature/xml-chat.svg";
 
 const features = [
   {
