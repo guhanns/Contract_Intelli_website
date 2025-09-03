@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './topbar.css'
-import logo from '../../../images/logo/logo-dark.svg'
+import logo from '../../../images/logo/header-logo.svg'
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useNavigate } from 'react-router-dom';
@@ -38,7 +38,9 @@ function Topbar() {
         <HashLink smooth to="/#benifits">Benefits</HashLink>
         <HashLink smooth to="/#useCases">Use Cases</HashLink>
         {/* <HashLink smooth to="/#pricing">Pricing</HashLink> */}
-      <button class="btn">Contact Us</button>
+      <button class="btn" onClick={() =>
+    window.open("https://intelligence-contract.srm-tech.com/", "_blank")
+  }>Launch Demo</button>
     </nav>
     
   </header>

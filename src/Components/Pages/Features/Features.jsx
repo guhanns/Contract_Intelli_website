@@ -83,7 +83,7 @@ function Features() {
             </span>
           </div>
           <h3 class="feature-heading">
-            Dashboard Overview (PDF + Extracted Entities)
+            Dashboard Overview
           </h3>
           <p class="feature-description">
             Gain a complete view of your contracts in one place. The dashboard

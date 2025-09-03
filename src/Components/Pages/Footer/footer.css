@@ -9,6 +9,11 @@
     height: 32px; */
 }
 
+.footer-section .footer-border{
+    border: 1px solid #1F242F;
+    opacity: 1;
+}
+
 .footer-section .footer-left-content{
   margin-top: 32px;
     color: #94969C;
@@ -18,6 +23,7 @@ font-size:16px;
 
 
 }
+
 
 .footer-section .head{
    margin-left: 32px;
@@ -50,7 +56,7 @@ font-size: 16px;
      padding-top: 64px;
 }
 .footer-section .border{
-    border:1px solid #0C111D;
+    border:1px solid #1F242F;
 }
 .footer-section .footer-icons-left{
     display: flex;

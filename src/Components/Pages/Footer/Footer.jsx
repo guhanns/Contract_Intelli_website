@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div class="footer-section">
       <div class="container footer-section-content">
-        <hr className="border" />
+        <hr className="footer-border" />
 
         <div class="row ">
           <div class="col-3 footer-boxes ">
@@ -70,7 +70,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <hr className="border" />
+        <hr className="footer-border" />
 
         <div className="footer-icons-left">
           <div>

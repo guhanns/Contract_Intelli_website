@@ -85,7 +85,7 @@ function UseCase() {
         </h6>
         </div>
         <div>
-            <button className='contact'>Contact Us</button>
+            {/* <button className='contact'>Contact Us</button> */}
         </div>
       </div>
       <div className="scroll-wrapper">
@@ -101,11 +101,11 @@ function UseCase() {
                 <h3>{card.title}</h3>
                 <p>{card.description}</p>
                 <div className="tags">
-                  {card.tags.map((tag, i) => (
+                  {/* {card.tags.map((tag, i) => (
                     <span key={i} className="tag violet">
                       {tag}
                     </span>
-                  ))}
+                  ))} */}
                 </div>
               </div>
             ))}

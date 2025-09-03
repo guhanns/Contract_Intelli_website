@@ -23,6 +23,10 @@
     var(--Component-colors-Utility-Brand-utility-brand-200, #53389e);
   background: var(--Component-colors-Utility-Brand-utility-brand-50, #2c1c5f);
 }
+.home-ai .ai{
+   display: inline-flex;   /* make it flexible inline */
+  align-items: center;    /* vertical alignment */
+}
 
 .home-ai .ai img{
   

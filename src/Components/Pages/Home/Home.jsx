@@ -57,19 +57,19 @@ function Home() {
             <p className="home-subHead">
               Extract, analyze, and manage pharmaceutical contracts faster with
               <br /> IntelliContract - built for Model N integration, modular
-              for every industry.”
+              for every industry.
             </p>
             <div className="home-btns">
               <button className="demo-play" onClick={() =>
     window.open("https://intelligence-contract.srm-tech.com/", "_blank")
   }>
                 <img src={demoPlayImg} />
-                Demo
+                Launch Demo
               </button>
-              <button 
+              {/* <button 
               className="start-btn" 
               >
-                Contact Us</button>
+                Contact Us</button> */}
             </div>
           </div>
         </div>

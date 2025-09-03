@@ -15,9 +15,9 @@ const features = [
   },
   {
     id: 2,
-    title: "Model N Compatible Excel Output",
+    title: "Model N Compatible XML Output",
     description:
-      "Export contract insights into Excel sheets formatted for Model N. Ensure a smooth, error-free onboarding process with structured data ready for integration.",
+      "Export contract insights into XML file formatted for Model N. Ensure a smooth, error-free onboarding process with structured data ready for integration.",
     link: "#",
     image: modelnImg,
   },

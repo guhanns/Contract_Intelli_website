@@ -13,12 +13,14 @@ const Experience = () => {
         </div>
 
         <div className="experience-section__buttons">
-          <button className="experience-section__btn experience-section__btn--outline">
-            Request a Demo
+          <button className="experience-section__btn experience-section__btn--outline" onClick={() =>
+    window.open("https://intelligence-contract.srm-tech.com/", "_blank")
+  }>
+            Launch a Demo
           </button>
-          <button className="experience-section__btn experience-section__btn--gradient">
+          {/* <button className="experience-section__btn experience-section__btn--gradient">
             Contact Us
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

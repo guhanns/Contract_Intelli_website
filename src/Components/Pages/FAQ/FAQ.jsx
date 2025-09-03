@@ -33,27 +33,27 @@ const FAQ = () => {
       id: "2",
       question: "How does IntelliContract integrate with Model N?",
       answer:
-        "IntelliContract integrates seamlessly with Model N by providing structured insights and automating contract management workflows.",
+        "It generates Model N–compatible XML outputs, making contract onboarding seamless and error-free.",
     },
     {
       id: "3",
       question: "Can IntelliContract handle data formats other than PDF?",
-      answer: "Yes, it supports multiple file formats including Word, Excel, and scanned images.",
+      answer: "Yes. While optimized for PDF contracts today, IntelliContract is modular and can supports other formats like Word, JSON, and more.",
     },
     {
       id: "4",
       question: "Is my data secure?",
-      answer: "Absolutely. IntelliContract uses enterprise-grade encryption and follows strict compliance protocols.",
+      answer: "Absolutely. IntelliContract uses role-based access, Single Sign-On (SSO), and enterprise-grade security protocols to keep your data safe.",
     },
     {
       id: "5",
       question: "Do I need technical expertise to use IntelliContract?",
-      answer: "No, the platform is designed for business users with a simple and intuitive interface.",
+      answer: "No. The interface is user-friendly with dashboards, comparison tools, and a natural language chat for easy interaction.",
     },
     {
       id: "6",
       question: "What industries can use IntelliContract?",
-      answer: "Pharma, finance, healthcare, legal, manufacturing, and many more.",
+      answer: "Currently tailored for pharma, it’s designed to expand to finance, legal, manufacturing, government, and healthcare.",
     },
   ];
 
